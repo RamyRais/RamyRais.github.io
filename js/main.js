@@ -56,6 +56,14 @@ $(document).ready(function() {
             }
         });
 
+    $('.wavevision_gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled:true
+            }
+        });
+
     /* Sticky menu */
     $(".navbar").sticky({
         topSpacing: 0
